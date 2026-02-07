@@ -3,73 +3,163 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Makhosi Radebe Portfolio</title>
+    <title>Makhosi Radebe | Personal Portfolio</title>
+
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
+            font-family: Arial, Helvetica, sans-serif;
             margin: 0;
-            padding: 0;
             background-color: #f4f4f4;
+            line-height: 1.7;
+        }
+
+        header {
+            background: #1e1e1e;
+            color: white;
+            padding: 30px 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 15px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            background: white;
+        }
+
+        section {
+            padding: 40px 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        h2 {
             color: #333;
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
+
+        .images img {
+            width: 220px;
+            margin: 10px;
+            border-radius: 8px;
         }
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        main {
-            padding: 20px;
-            max-width: 900px;
-            margin: auto;
-            background-color: white;
-        }
-        section {
-            margin-bottom: 30px;
-        }
+
         footer {
+            background: #1e1e1e;
+            color: white;
             text-align: center;
             padding: 15px;
-            background-color: #333;
-            color: white;
-        }
-        ul {
-            list-style-type: square;
-            padding-left: 20px;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            margin-top: 10px;
-            margin-bottom: 10px;
         }
     </style>
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
         <h1>Makhosi Radebe</h1>
+        <p>Aspiring Web Developer | HTML5 Portfolio</p>
+
         <nav>
-            <a href="#about">About</a> |
-            <a href="#projects">Projects</a> |
-            <a href="#contact">Contact</a> |
-            <a href="#achievements">Achievements</a>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects & Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
 
+    <!-- MAIN CONTENT -->
     <main>
+
+        <!-- ABOUT -->
         <section id="about">
             <h2>About Me</h2>
-            <img src="73f4cb80-9cda-4bf3-8bad-b18d5ee0ef3a" alt="Makhosi Radebe Profile Picture" width="200">
-            <p>Hello! I’m Makhosi Radebe, a motivated student learning HTML5 and web development. I enjoy creating websites and exploring new technologies. I am eager to build practical skills and complete exciting projects that showcase my creativity and learning journey.</p>
+
+            <p>
+                My name is Makhosi Radebe and I am a motivated and dedicated student
+                with a strong interest in web development and technology.
+            </p>
+
+            <p>
+                I am currently building my foundation in HTML5 and web design,
+                learning how to create clean, structured, and accessible websites
+                using semantic elements.
+            </p>
+
+            <p>
+                I enjoy learning, improving my skills, and working toward becoming
+                a professional developer capable of creating meaningful digital solutions.
+            </p>
+
+            <div class="images">
+                <img src="images/IMG-20251223-WA0038.jpg" alt="Portrait photo of Makhosi Radebe">
+            </div>
         </section>
 
+        <!-- PROJECTS & SKILLS -->
         <section id="projects">
-            <h2>Projects / Skills</h2>
-            <ul>
-                <li>Created a per
+            <h2>Projects & Skills</h2>
+
+            <article>
+                <h3>Projects</h3>
+                <ul>
+                    <li>Personal HTML Portfolio Website</li>
+                    <li>Basic Blog Page Layout</li>
+                    <li>Simple Web Page Assignments</li>
+                </ul>
+
+                <div class="images">
+                    <img src="images/73f4cb80-9cda-4bf3-8bad-b18d5ee0ef3a.jpg" alt="Project screenshot example one">
+                    <img src="images/550f46be-4b9d-41bf-9761-e34778f1708d.jpg" alt="Project screenshot example two">
+                </div>
+            </article>
+
+            <article>
+                <h3>Skills</h3>
+                <ul>
+                    <li>HTML5 Semantic Structure</li>
+                    <li>Basic CSS Styling</li>
+                    <li>GitHub Version Control</li>
+                    <li>Web Page Validation</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>Email:
+                <a href="mailto:makhosi@example.com">makhosi@example.com</a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="https://github.com" target="_blank">github.com</a>
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2026 Makhosi Radebe. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
