@@ -57,8 +57,8 @@ Includes contact details such as email or phone number.
 ---
 
 ## Images
-The website includes at least three images.
-Each image uses the `alt` attribute to improve accessibility and usability.
+The website was suppose to be having 3 images  but i failed to inclue them.
+Each image was suppose to use the `alt` attribute to improve accessibility and usability.
 
 ---
 
